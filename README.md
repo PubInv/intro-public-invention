@@ -1,4 +1,4 @@
-# An Introduciton to Public Invention
+# An Introduction to Public Invention
 
 This repo holds a draft of a book beging written by Robert L. Read, "An Introduction to Public Invenion".
 
