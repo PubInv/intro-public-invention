@@ -25,6 +25,7 @@
 % Load the package for hyperreferences
 \usepackage{kaorefs}
 
+
 \graphicspath{{images/}{./}} % Paths where images are looked for
 
 \makeindex[columns=3, title=Alphabetical Index, intoc] % Make LaTeX produce the files required to compile the index
@@ -446,10 +447,11 @@ These include:
 \item and using Agile software methods and big visible charts
   to manager work.
 \end{itemize}
-\sidenote{This is incomplete and others may have a better explanation that I can cite. In particular ``the Apache Way'' is worth citing here.}
+\marginnote{``The Apache Way''\url{https://www.apache.org/theapacheway/} is a valuable starting point, as is ``Homesteading the Noosphere''\url{http://catb.org/~esr/writings/homesteading/homesteading/} and my own work, ``How to be a Programmer'' \url{https://github.com/braydie/HowToBeAProgrammer}}
 
 An additional practice is that documenters and maintainers
-are valued nearly as highly as software coders\sidenote{Cite Eric S. Raymond's ``How to be a Hacker''} here.
+are valued nearly as highly as software coders\marginnote{Eric S. Raymond has explained this in his essay ``How to Become a Hacker'' in in the ``Status in the Hacker Culture''
+section\url{http://www.catb.org/~esr/faqs/hacker-howto.html}\cite{Raymond1999}} here.
 This is a cultural practice which is of paramount importance
 to public invention as a movement.
 Often, an invention has a kernel of math or ingenuity
@@ -467,7 +469,7 @@ equally important.
 
 The value of these cultural inventions cannot be overestimated.
 But the creation of the GNU General Public License (GPL)
-\sidenote{The work of the Richard Stallman and the Free Software Foundation in the creation of the GPL has inspired many other licenses
+\marginnote{The work of the Richard Stallman and the Free Software Foundation in the creation of the GPL has inspired many other licenses
   practically created the field and practice now called ``free culture''. This goes far beyond the GPL, but we can use the GPL as the
   originating event for these other licenses.}
 is of equal importance.
@@ -498,7 +500,7 @@ can be astoundingly effective in practice.
 
 \begin{itemize}
 \item Practices pioneered by the Free Software Movement
-\item  Internet community
+\item Internet community
 \item Open Source Software paved the way with certain teachings
 \item Projects need leaders
 \item Projects run on the coin of acknowledgement
@@ -555,14 +557,59 @@ Each has separate gifts: (Ephesians 4:11-16)
 \item We are made in God’s image; and is not God a Maker and Inventor and Mathematician?
 \end{itemize}
 
+\chapter{Building a Public Invention Commons}
+\begin{itemize}
+\item  The value of a Commons
+\item The value of Commons of Problems
+\item The value of a Commons of Solutions
+\item Don’t worry, be crappy.
+\end{itemize}
+
+\section{Public Invention as an Organization}
+
+This book is an attempt to create a movement called public invention.
+I have also created an public charity of the same name.\marginnote{Public Invention, Inc., is a US 501c3 tax-deductible public charity.}
+Public invention, the movement, has always been and will always be more important than Public Invention the organization.
+Organizations come and go.
+You are free to create a different organization to support public invention, and I hope you do.
+Why then have such an organization at all, when it is clearly not strictly necessary?
+
+Hardware invention and non-theoretical science projects require more capital outlay
+for tools and consumable supplies than pure software and math projects.
+Once a project starts to spend a significant amount of money, it is useful to have a formal business organization.
+People who want to support a project want to know the money is not spent negligently.
+Being a non-profit registered by the IRS makes gifts tax-deductible for some givers in some circumstances,
+which may increase donations.
+
+Maintaining a list problems or projects worthy of effort is extremely valuable.
+Plenty of very valuble organization of entire fields is done by dilligent individuals.\marginnote{For example, ``Ten Semi-Grand Challenges for Quantum Computing Theory'' by Scott Aaronson
+  \url{Ten Semi-Grand Challenges for Quantum Computing Theory}}.
+However, some work requires input from several individuals, and this work must be judged and evaluated
+in some way which is best served by an organization.
+In particular, the attention of any one
+individual is limited in time.
+Some projects and work demand to be sustained across periods of time longer than a human lifetime.
+Organizations can support such work better than individuals.
+
+Newcomers benefit from an obvious starting point.
+An established organization provides such a starting point, even if the newcomers
+later develop their own interests which take them away from the organization.
+
+Of course there is always a danger that an organization will attempt to control or monopolize
+a project or even a problem space, or worse, a group of people.
+In such cases, creating an alternative or competing organization
+may be required.
+
+Sadly, it may be necessary to have organizations which conduct business in
+different human languages or in different geographic regions.
+In a sense, it will be a great validation for public invention (the movement) when
+someone feels it is necessary to create an alternative to Public Invention (the organization).
 
 \pagelayout{wide} % No margins
 \addpart{How to Be a Public Inventor}
 \pagelayout{margin} % Restore margins
 
-
-\chapter{Practices}
-
+\chapter{How to be a Public Inventor}
 \begin{itemize}
 \item Motivate yourself through love of humanity, life, and knowledge
 \item Publish early and often
@@ -573,6 +620,38 @@ Each has separate gifts: (Ephesians 4:11-16)
 \item Ask for Help
 \item Learn by doing
 \item Failure in service to a big idea plants the seeds of success.
+\end{itemize}
+
+\chapter{The Emotional Intelligence of the Public Inventor}
+
+\begin{itemize}
+\item Getting to the Coal Face
+\item What to do when you are scooped
+\item Dealing with publication
+  \begin{itemize}
+\item Rejection
+\item Timeliness
+\end{itemize}
+\item Surviving being foolish
+\item Investing in learning without pedantry
+\item Feeling unappreciated and ignored
+\item Fuller’s theory of technological maturity and ripeness
+\item The need for friendship and siblinghood
+\item Feeling ripped off
+\item The siren-song of closed intellectual property
+\item Patent envy and the patent mystique
+\item Dealing with disappointing teammates
+\item The insecurity of insignificance
+\item Competition is obsolete
+\item St. Exupery’s comfort of mediocrity - 20 bad sculptors are needed
+\item “A walk-on part in a war or a lead role in a cage”
+\item Paul’s call for each to do their part: Ephesians 4:11-16
+\item Small is beautiful
+  \begin{itemize}
+\item Giants are built from small accomplishments, as long as they are published.
+\item Thinking small is often a useful constraint.
+\item Nothing does big things as well as doing small things.
+\end{itemize}
 \end{itemize}
 
 \chapter{What if you cannot be a Public Inventor?}
@@ -593,6 +672,76 @@ Each has separate gifts: (Ephesians 4:11-16)
   \end{itemize}
 \end{itemize}
 
+\section{How to Start a Public Invention and Humanitarian Engineering Club at your University}
+
+\label{sec:piheclub}
+
+
+One of the most impactful things you can do is to start a Public Invention and Humanitarian Engineering (PIHE) club at your University. (We recommend that PIHE be pronounced “PIE-hee”). Although one could of course start a club devoted
+solely to public invention, by including humanitarian engineering the appeal is broadened.
+
+\marginnote{
+Humanitarian Engineering, [is the] the application of engineering to improving the well-being of marginalized people and disadvantaged communities, usually in the developing world.\cite{enwiki:1026730841}}
+
+
+\subsection{Humanitarian Engineering}
+
+Humanitarian engineering was first offered as a minor by the Colorado School of Mines in 2003. Organizations like Engineers Without Borders (EWB-USA) have made it a nationwide activity with over 300 chapters (see map below, or click here). The blue dots are EWB chapters, many of which are student chapters associated with Universities, and the red dots are community projects within the USA. EWB-USA focuses heavily on civil engineering (e.g. clean drinking water projects) in low and middle income countries. The COVID-19 pandemic, however, has made both the need for and abilities of humanitarian engineering clearer. Helpful is one of several volunteer organizations created in response to COVID-19 dedicated to humanitarian engineering. Humanitarian engineering has leveraged advances in digital manufacturing and open source sharing of designs to aid the world by creating personal protective equipment (PPE) and even sophisticated medical devices like ventilators. There is a need for humanitarian engineers in every kind of engineering discipline.
+
+\subsection{Starting a PIHE Club}
+
+Public Invention and Humanitarian Engineering are both movements that seek to use human ingenuity to help society and the planet. There are always highly motivated students interested not only in learning and increasing their earning power, but also by a desire to help their fellow beings and move society towards a sustainable state. These students deserve a place to congregate, socialize, learn and teach together. The project-based nature of Public Invention and Humanitarian Engineering movements are a great way for students to be mentored and gain practical experience to augment their studies. We think every University should have a Public Invention and Humanitarian Engineering club.
+
+At most schools, the students have the power to start a club simply by asking to do so, sometimes by filling out some paperwork to assure the safety of the students and that the club accords with the principles of the school. The university usually lets the club meet in a classroom or other room, and sometimes provides a small amount of money for things like pizza.
+
+A student-formed organization may require a faculty advisor, and sometimes a minimum number of students to serve as the initial officers of the club. Usually, a statement of the purpose of the club will be required. We recommend that you use some variant of this purpose:
+
+\blockquote{
+The purpose of the [your university name] Public Invention and Helpful Engineering club is to explore and support the use of technology for the betterment of humanity and the planet, particularly how technology can address problems not being addressed by the private sector.
+}
+
+You do not need the permission of anyone outside your school to start a PIHE club, and your club doesn’t have to follow any dictates that it does not itself choose. Every club can be independent. You are encouraged, however, to inform us at Public Invention (email: <read.robert@pubinv.org>)  so we can give you a shout out as well as connect you to other club directors and presidents. We will help you find speakers and mentors as well.
+
+Here is the preamble drafted at the University of Texas at Austin club:
+\blockquote{
+The local Austin Public Invention and Helpful Engineering Chapter is intended to support student awareness and participation in humanitarian engineering projects and free, open-source inventions with the public interest in mind.
+}
+
+\subsection{What a PIHE Club Should Do}
+
+Whenever two or three people are gathered together, a spirit arises which is greater than the individuals. A PIHE club doesn’t have to do anything beyond talk about the ideas of Public Invention and Humanitarian Engineering. But a PIHE club could also:
+\begin{itemize}
+\item Invite speakers to talk specifically about PIHE concepts, practices, and projects. Public Invention will be happy to come speak at your club!
+\item Take on real projects that can really make a difference. The organization Public Invention has published a growing curated list of such projects analyzed for difficulty, joinability, and skills that you can use as a starting point.
+\item Interact with a local Engineers Without Borders professional or student chapter, or consider starting one!
+\item If not ready to do a real research project, take on a learning project to improve your PIHE skills, such as building an open-source device useful for humanitarian purposes.
+\item Brainstorm new public invention ideas, and contribute those ideas back to the public invention list of ideas.
+\item Invite discussion of the philosophical, religious and ethical aspects of PIHE.
+\item Seek out ways engineering and technology can help in your local community, such as:
+  \begin{itemize}
+  \item Mapping invasive species,
+  \item Providing sanitation to the homeless,
+  \item Recycling plastic with recyclebots into 3-D printing filament,
+  \item Measuring and decreasing the local carbon footprint, etc.
+  \end{itemize}
+\end{itemize}
+
+Of course, you can probably think of a dozen other useful and fun things! EWB student chapters have a very well-defined way to make a big impact by working with local low-resource communities internationally, but a PIHE club does not have to be structured that way. Your PIHE club will not be a chapter of a larger organization, so you are free to focus wherever you like. Some clubs may wish to focus on real-world project-based learning. Other clubs may want to chat about how an engineering career can be part of PIHE. Some clubs may focus on the environment, others may focus on poverty and inequity. What they all share in common is that they share their inventions and development to the commons!
+
+\subsection{What the Students Should Get Out of a PIHE Club}
+
+Although every club may be different, the students of a PIHE club should obtain certain benefits:
+\begin{itemize}
+\item The joy of sharing a common interest with your fellow students.
+\item The satisfaction of helping others, even if that help is abstract and potential, existing in the future rather than today.
+\item Learning how technology can positively affect the real world.
+\item Understanding the open-source and free culture movements.
+\item An introduction to modern project management tools such git\url{https://git-scm.com/}, GitHub\url{https://github.com/} and GitLab\url{https://gitlab.com/}, and Appropedia\url{https://www.appropedia.org/Welcome_to_Appropedia}.
+\end{itemize}
+
+If a PIHE club is ambitious enough to undertake its own humanitarian invention project, perhaps with the help of a professor or Public Invention, then students can expect mentors, real-world experience, practical motivation of their studies, and a great project to talk about in a job interview or when applying to graduate school.
+
+
 \pagelayout{wide} % No margins
 \addpart{Public Invention in the 2020s}
 \pagelayout{margin} % Restore margins
@@ -605,6 +754,8 @@ I parts of this book will be read in the year 2100, but this chapter
 will be obsolete.
 
 \chapter{Selected Invention Ideas}
+
+``The world is full of interesting problems to solve.'' -- Eric S. Raymond
 
 \pagelayout{wide} % No margins
 \addpart{How Public Invention Operates}
@@ -636,9 +787,9 @@ will be obsolete.
 
 
 
-\chapter{Some more blindtext}
+\chapter*{Acknowledgements}
 
-\blindtext
+Joshua Pearce, Sabia Abidi, Avinash Baskaran and Megan Cadena co-authored an essay which was the basis of section \ref{sec:piheclub}.
 
 %----------------------------------------------------------------------------------------
 

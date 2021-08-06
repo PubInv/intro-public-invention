@@ -1,2 +1,3 @@
-intro-pubinv.pdf:
+biber:
 	biber intro-pubinv
+all: biber
