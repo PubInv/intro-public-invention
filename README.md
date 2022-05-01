@@ -83,7 +83,7 @@ where the `kaobook` file is. This means that the `.tex` file should be
 in the same folder as the `kaobook.cls` file, *i.e.* at the root of the 
 repository. (There are exceptions to this rule. For instance, the 
 kaobook files can be placed in a folder that is automatically searched 
-by LaTeX. This, way, the `.tex` file with your contents can be placed 
+by LaTeX. This way, the `.tex` file with your contents can be placed 
 anywhere; check out the [instructions](instructions) directory for 
 hints.)
 
